@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+
+}
+html, body {
+    overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.navigation{
+    transition: top 0.3s ease-in-out;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    padding: 10px 20px; 
+    
+}
+.container:hover+.navigation{
+    top: 0;
+}
+
+.servicebar {
+    flex-grow: 1; 
+    font-family: "Kalnia", serif;
+    font-size: 25px;
+    word-spacing: 25px;
+   
+    padding-left: 0; 
+    
+}
+
+.oval {
+    height: 30px; 
+    width: 40px;
+    background-color: #D9D9D9; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.qtitle {
+    font-family: "Kalnia", serif; 
+    font-weight: 400; 
+    font-size: 24px;
+    color: #705D4B;
+}
+
+.service-link, .home-link {
+    text-decoration: none; 
+    color: black;
+}
+
+.service-link:hover, .home-link:hover {
+    text-decoration: underline; 
+    color: black;
+}
+.mystiquespan1{
+    word-spacing: 0;
+}
+.mystiquespan2{
+    color: #705D4B;
+}
+
+
+.beautiful-face{
+    width: 950px;
+    height: 300px;
+    top: 3563px;
+    left: 1768px;
+}
+
+.asideclass1{
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+
+@keyframes colorTransition {
+    0% { color: #867F5F; }
+    50% { color: #201E17; }
+    75%{color:#D9D9D9}
+    100% { color: #867F5F; }
+}
+
+.sentence{
+    font-family: "Kalnia", serif;
+    font-size: 24px;
+    animation: colorTransition 3s infinite alternate; 
+    position: relative;
+    top: 100px;
+    left: 125px;
+}
+.break {
+    font-family: "Kalnia", serif;
+    font-size: 24px;
+    animation: colorTransition 3s infinite alternate;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.umm{
+    position: relative;
+    left: 55%;
+}
+
+.productservice{
+    position: relative;
+    top: 125px;
+    left: 300px;
+    width: 850px;
+}
+.finalwords{
+    position: relative;
+    top: 75px;
+    left: 75px;
+    font-size: 24px;
+    font-family: "kalnia", serif;
+}
+
+/* from here on out is for the services */
+
+.exploreour{
+    font-family: "kalnia", serif;
+    color: #756F57;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.servicesedit{
+    font-family: "kalnia", serif;
+    color: #756F57; 
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+#services{
+    position: relative;
+    top:260px;
+    height: 960px;
+}
+
+.picservice{
+    height: 200px;
+    width: 1400px;
+    display: block;
+    margin: 0;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.picservice:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            transform: scale(1.2);
+}
+.one{
+    top: 40px;
+}
+.two{
+    top: 70px;
+}
+.three{
+    top: 100px;
+}
+.four{
+    top: 130px;
+}
+
+
+.servicetitle{  
+    font-family: "kalnia", serif;
+    font-size: larger;
+    font-weight: 400px;
+    position: relative;
+    left: 100px;
+}
+
+.s{
+    bottom: 20px;
+}
+.o{
+   top: 20px; 
+}
+.p{
+   top: 40px;
+}
+.d{
+    top: 75px;
+}
+
+.contacts{
+    background-color: rgba(156, 148, 114, 0.52);
+    height: 200px;
+    position: relative;
+    top: 400px;
+}
+.text{
+    font-family: "kalnia", serif;
+    position: relative;
+}
+.uno{
+top: 60px;
+left: 80px;
+}
+.dos{
+    text-align: right;
+    bottom:20px;
+    right: 80px;
+}
+.theend{
+    background-color: rgba(15, 14, 9, 0.52);
+    height: 50px;
+    position: relative;
+    top: 400px;
+}
+.finalwords2{
+    font-family: "kalnia", serif;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}

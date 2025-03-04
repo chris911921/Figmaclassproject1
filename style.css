@@ -4,7 +4,7 @@ html{
 
 }
 html, body {
-    overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+    overflow-x: hidden; 
     width: 100%;
 }
 

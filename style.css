@@ -57,12 +57,12 @@ html, body {
     color: #705D4B;
 }
 
-.service-link, .home-link {
+.service-link, .home-link, .product-link, .cart-link, .page {
     text-decoration: none; 
     color: black;
 }
 
-.service-link:hover, .home-link:hover {
+.service-link:hover, .home-link:hover, .product-link:hover, .cart-link:hover {
     text-decoration: underline; 
     color: black;
 }
@@ -235,3 +235,15 @@ left: 80px;
     position: relative;
     top: 15px;
 }
+
+.page {
+    font-weight: 900;
+    font-size: 80px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
